@@ -1,0 +1,235 @@
+; This file shouldn't be fed directly to the Chatette generator
+; (it will be included inside the master file)
+; Contains the aliases definitions
+
+;=============== Aliases definitions =====================
+;-------------- Usual utilities ------------------
+~[greet]
+  hi
+  hello
+  hey
+~[question mark]
+  [ ?]\?
+  [ ?]\?\?
+  [ ?]\?\?\?
+  [ ?]\?!
+
+~[is#no elision]
+  is
+  will be
+  would be
+~[is#elision]
+  's
+  'll be
+  'd be
+~[are#no elision]
+  are
+  will be
+  would be
+~[are#elision]
+  're
+  'll be
+  'd be
+~[auxiliary#no elision]
+  would
+  will
+
+~[yes]
+  yes
+  ok
+  okay
+  ;alright
+~[no]
+  no
+
+~[agree]
+  yes ~[that's it?]
+  ~[that's it]
+  exactly
+  absolutely
+  right
+~[that's it]
+  that is {it/correct/right}
+  that's {it/correct/right}
+
+~[disagree]
+  no ~[that's wrong?]
+  ~[that's wrong]
+  ~[i] {didn't/did not} say that
+~[that's wrong]
+  that is {not it/wrong/incorrect}
+  that's {not it wrong/incorrect}
+
+;------------- Question utilities -----------------
+~[what is#singular]
+  what ~[is#no elision]
+  what~[is#elision]
+~[what is#plural]
+  what ~[are#no elision]
+  what~[are#elision]
+
+~[why]
+  why
+  for {what/which} reason
+
+~[what caused]
+  what caused
+  what causes
+  what would cause
+  what'd cause
+  what will cause
+  what'll cause
+
+~[which]
+  what
+  which
+
+~[ask]
+  ~[could you?] ~[tell me#infinitive]
+  how about ~[tell me#ing]
+
+~[could you]
+  could you
+  would you
+  can you
+
+~[tell me#infinitive]
+  tell me [about?]
+  show me [about?]
+  report
+~[tell me#ing]
+  telling me [about?]
+  showing me
+  reporting
+
+;------------- Inform utilities --------------
+~[i]
+  i
+  I
+~[i said]
+  ~[i] said
+  ;~[i] {am/was} saying
+  it was
+  it is
+  it's
+
+
+;------------- Other utilities ---------------
+~[named#singular]
+  {which is/that is?} named
+  {which is/that is?} called
+  {which is/that is?} labeled
+  {which is/that is?} labelled
+  whose name is
+~[named#plural]
+  {which are/that are?} named
+  {which are/that are?} called
+  {which are/that are?} labeled
+  {which are/that are?} labelled
+  whose name is
+
+~[such that]
+  that
+  which
+~[such that are]
+  ~[such that] are
+  ~[such that]'re
+  ~[such that] will be
+  ~[such that]'ll be
+  ~[such that] would be
+  ~[such that]'d be
+
+;------------- Planning ---------------------
+~[planning]
+  planning
+  schedule
+~[planning of]
+  ~[planning] {of/for}
+
+~[fully]
+  fully
+  entirely
+  completely
+~[fully planned]
+  ~[fully] planned
+
+~[not planned]
+  not planned
+
+~[planned at$PERCENT]
+  planned at [only?] $PERCENT\%
+  planned up to [only?] $PERCENT\%
+  ~[completed] {at/up to} [only?] $PERCENT\%
+
+~[finished]
+  finished
+  ;over
+  done
+  completed
+~[completed]
+  done
+  completed
+
+;------------ Production lines ----------------
+~[production line]
+  {prod/production?} line
+
+~[line name#hot strip mill]
+  hot [strip?] mill
+~[line name#pickling]
+  pickling
+~[line name#cold rolling mill]
+  cold [rolling?] mill
+~[line name#galvanization]
+  galvanization
+  galvanisation
+~[line name#paint]
+  paint
+~[line name#slitting]
+  slitting
+~[line name#packing]  ; Note: is it packing or packaging?
+  packing
+~[line name#shipping]
+  shipping
+~[line name#client]
+  client
+
+|prod_lines.chatette
+
+;-------------- Orders --------------------
+~[order#singular]
+  order
+  command
+~[order#plural]
+  orders
+  commands
+
+;------------- Time ------------------------
+~[late]
+  ~[finished?] [too?] late
+  ~[finished?] behind schedule
+  not on time
+  [long-?]overdue
+  [long-?]delayed
+  ;[long-?]behindhand
+  ;[long-?]belated
+  ;tardy
+
+~[on time]
+  ~[finished?] on time
+  ~[finished?] in [good?] time
+  ~[finished?] {on/to} schedule
+
+;----------- Utilization -------------------
+~[fully used]
+  ~[fully] used
+  ~[fully] utilized
+~[not used]
+  not used
+  not utilized
+
+~[used at$PERCENT]
+  {used/utilized} {at/up to} [only?] $PERCENT\%
+
+~[utilization$PERCENT]
+  [up to?] [only?] $PERCENT[\%?]

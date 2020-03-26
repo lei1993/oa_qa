@@ -1,0 +1,2313 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "五楼"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定下周一上午11点五楼大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定下周一上午11点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 15,
+            "entity": "user_projector",
+            "start": 11,
+            "value": "带投影仪"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定下周一上午11点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 14,
+            "entity": "user_location",
+            "start": 12,
+            "value": "五层"
+          },
+          {
+            "end": 19,
+            "entity": "user_meeting",
+            "start": 14,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定今天11点到12点五层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定今天11点到12点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "有投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定今天11点到12点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定今天11点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "带投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定后天11点到12点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_lync",
+            "start": 12,
+            "value": "带电话"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定后天11点到12点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_lync",
+            "start": 12,
+            "value": "有电话"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定后天11点到12点有电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_lync",
+            "start": 8,
+            "value": "带电话"
+          },
+          {
+            "end": 16,
+            "entity": "user_room_type",
+            "start": 11,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定后天11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "带投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定明天11点到12点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_lync",
+            "start": 8,
+            "value": "有电话"
+          },
+          {
+            "end": 16,
+            "entity": "user_room_type",
+            "start": 11,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我定明天11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 14,
+            "entity": "user_lync",
+            "start": 11,
+            "value": "有电话"
+          },
+          {
+            "end": 19,
+            "entity": "user_room_type",
+            "start": 14,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订下周一上午11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订今天11点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_location",
+            "start": 8,
+            "value": "二楼"
+          },
+          {
+            "end": 15,
+            "entity": "user_meeting",
+            "start": 10,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订后天11点二楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "带投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订后天11点到12点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订后天11点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_lync",
+            "start": 12,
+            "value": "有电话"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订明天11点到12点有电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订明天11点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "有投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我订明天11点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定下周一上午11点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 15,
+            "entity": "user_lync",
+            "start": 12,
+            "value": "有电话"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定下周一上午11点有电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定今天11点到12点大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定今天11点到12点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "今天11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_projector",
+            "start": 9,
+            "value": "有投影仪"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定今天11点有投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "一层"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定后天11点一层大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_projector",
+            "start": 13,
+            "value": "带投影仪"
+          },
+          {
+            "end": 22,
+            "entity": "user_room_type",
+            "start": 17,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定后天11点到12点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_projector",
+            "start": 13,
+            "value": "有投影仪"
+          },
+          {
+            "end": 22,
+            "entity": "user_room_type",
+            "start": 17,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定后天11点到12点有投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_location",
+            "start": 13,
+            "value": "二楼"
+          },
+          {
+            "end": 20,
+            "entity": "user_meeting",
+            "start": 15,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定明天11点到12点二楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定明天11点到12点大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "明天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_lync",
+            "start": 9,
+            "value": "带电话"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预定明天11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "有投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约下周一上午11点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "今天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_lync",
+            "start": 9,
+            "value": "带电话"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约今天11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "今天11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_projector",
+            "start": 9,
+            "value": "有投影仪"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约今天11点有投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "五层"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约后天11点五层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_lync",
+            "start": 13,
+            "value": "带电话"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约后天11点到12点带电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_projector",
+            "start": 9,
+            "value": "带投影仪"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约后天11点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "明天11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_projector",
+            "start": 9,
+            "value": "带投影仪"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "帮我预约明天11点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "有投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定今天11点到12点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_lync",
+            "start": 8,
+            "value": "带电话"
+          },
+          {
+            "end": 16,
+            "entity": "user_room_type",
+            "start": 11,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定今天11点带电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "有投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定今天11点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_location",
+            "start": 8,
+            "value": "三层"
+          },
+          {
+            "end": 15,
+            "entity": "user_meeting",
+            "start": 10,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点三层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "带投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点到12点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_projector",
+            "start": 12,
+            "value": "有投影仪"
+          },
+          {
+            "end": 21,
+            "entity": "user_room_type",
+            "start": 16,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点到12点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_lync",
+            "start": 12,
+            "value": "有电话"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点到12点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_meeting",
+            "start": 8,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "后天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定后天11点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 14,
+            "entity": "user_location",
+            "start": 12,
+            "value": "三层"
+          },
+          {
+            "end": 19,
+            "entity": "user_meeting",
+            "start": 14,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定明天11点到12点三层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要定明天11点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要订今天11点到12点大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要订今天11点到12点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "今天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_lync",
+            "start": 8,
+            "value": "有电话"
+          },
+          {
+            "end": 16,
+            "entity": "user_room_type",
+            "start": 11,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要订今天11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_lync",
+            "start": 12,
+            "value": "有电话"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要订明天11点到12点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "user_time_or_period",
+            "start": 3,
+            "value": "明天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_projector",
+            "start": 8,
+            "value": "带投影仪"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要订明天11点带投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "今天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "二楼"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约今天11点二楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "一楼"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点一楼大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "三层"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点三层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "二层"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点二层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_location",
+            "start": 13,
+            "value": "一层"
+          },
+          {
+            "end": 20,
+            "entity": "user_meeting",
+            "start": 15,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点到12点一层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点到12点大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点到12点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_projector",
+            "start": 13,
+            "value": "有投影仪"
+          },
+          {
+            "end": 22,
+            "entity": "user_room_type",
+            "start": 17,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点到12点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_location",
+            "start": 9,
+            "value": "四楼"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点四楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_lync",
+            "start": 9,
+            "value": "带电话"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_projector",
+            "start": 9,
+            "value": "有投影仪"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "后天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_lync",
+            "start": 9,
+            "value": "有电话"
+          },
+          {
+            "end": 17,
+            "entity": "user_room_type",
+            "start": 12,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约后天11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "user_time_or_period",
+            "start": 4,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 17,
+            "entity": "user_projector",
+            "start": 13,
+            "value": "有投影仪"
+          },
+          {
+            "end": 22,
+            "entity": "user_room_type",
+            "start": 17,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "我要预约明天11点到12点有投影仪培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_location",
+            "start": 10,
+            "value": "二层"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定下周一上午11点二层大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_lync",
+            "start": 10,
+            "value": "有电话"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定下周一上午11点有电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_lync",
+            "start": 10,
+            "value": "有电话"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定下周一上午11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "今天11点"
+          },
+          {
+            "end": 9,
+            "entity": "user_location",
+            "start": 7,
+            "value": "五楼"
+          },
+          {
+            "end": 14,
+            "entity": "user_meeting",
+            "start": 9,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定今天11点五楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "四楼"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定今天11点到12点四楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "今天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_lync",
+            "start": 7,
+            "value": "有电话"
+          },
+          {
+            "end": 15,
+            "entity": "user_room_type",
+            "start": 10,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定今天11点有电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "一楼"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定后天11点到12点一楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "四楼"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定后天11点到12点四楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_projector",
+            "start": 11,
+            "value": "有投影仪"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定后天11点到12点有投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点"
+          },
+          {
+            "end": 11,
+            "entity": "user_projector",
+            "start": 7,
+            "value": "有投影仪"
+          },
+          {
+            "end": 16,
+            "entity": "user_room_type",
+            "start": 11,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定后天11点有投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_lync",
+            "start": 7,
+            "value": "有电话"
+          },
+          {
+            "end": 15,
+            "entity": "user_room_type",
+            "start": 10,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预定后天11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_location",
+            "start": 10,
+            "value": "二楼"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约下周一上午11点二楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_location",
+            "start": 10,
+            "value": "四楼"
+          },
+          {
+            "end": 17,
+            "entity": "user_meeting",
+            "start": 12,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约下周一上午11点四楼大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_lync",
+            "start": 10,
+            "value": "带电话"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约下周一上午11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "今天11点到12点"
+          },
+          {
+            "end": 14,
+            "entity": "user_lync",
+            "start": 11,
+            "value": "带电话"
+          },
+          {
+            "end": 19,
+            "entity": "user_room_type",
+            "start": 14,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约今天11点到12点带电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "今天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_lync",
+            "start": 7,
+            "value": "有电话"
+          },
+          {
+            "end": 15,
+            "entity": "user_room_type",
+            "start": 10,
+            "value": "培训会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约今天11点有电话培训会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "三层"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约后天11点到12点三层大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 16,
+            "entity": "user_meeting",
+            "start": 11,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约后天11点到12点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_meeting",
+            "start": 7,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约后天11点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_lync",
+            "start": 7,
+            "value": "带电话"
+          },
+          {
+            "end": 15,
+            "entity": "user_room_type",
+            "start": 10,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约后天11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "明天11点"
+          },
+          {
+            "end": 9,
+            "entity": "user_location",
+            "start": 7,
+            "value": "二楼"
+          },
+          {
+            "end": 14,
+            "entity": "user_meeting",
+            "start": 9,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约明天11点二楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "五层"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约明天11点到12点五层大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "明天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_meeting",
+            "start": 7,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预约明天11点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 15,
+            "entity": "user_meeting",
+            "start": 10,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订下周一上午11点大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "下周一上午11点"
+          },
+          {
+            "end": 13,
+            "entity": "user_lync",
+            "start": 10,
+            "value": "带电话"
+          },
+          {
+            "end": 18,
+            "entity": "user_room_type",
+            "start": 13,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订下周一上午11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "今天11点"
+          },
+          {
+            "end": 12,
+            "entity": "user_meeting",
+            "start": 7,
+            "value": "大二会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订今天11点大二会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "四楼"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订后天11点到12点四楼大一会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点到12点"
+          },
+          {
+            "end": 15,
+            "entity": "user_projector",
+            "start": 11,
+            "value": "带投影仪"
+          },
+          {
+            "end": 20,
+            "entity": "user_room_type",
+            "start": 15,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订后天11点到12点带投影仪普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_lync",
+            "start": 7,
+            "value": "带电话"
+          },
+          {
+            "end": 15,
+            "entity": "user_room_type",
+            "start": 10,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订后天11点带电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "后天11点"
+          },
+          {
+            "end": 10,
+            "entity": "user_lync",
+            "start": 7,
+            "value": "有电话"
+          },
+          {
+            "end": 15,
+            "entity": "user_room_type",
+            "start": 10,
+            "value": "普通会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订后天11点有电话普通会议室"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "user_time_or_period",
+            "start": 2,
+            "value": "明天11点到12点"
+          },
+          {
+            "end": 13,
+            "entity": "user_location",
+            "start": 11,
+            "value": "四层"
+          },
+          {
+            "end": 18,
+            "entity": "user_meeting",
+            "start": 13,
+            "value": "大一会议室"
+          }
+        ],
+        "intent": "bookmeeting",
+        "text": "预订明天11点到12点四层大一会议室"
+      }
+    ],
+    "entity_synonyms": [],
+    "lookup_tables": [],
+    "regex_features": []
+  }
+}

@@ -1,0 +1,5234 @@
+{
+    "rasa_nlu_data": {
+        "regex_features": [],
+        "entity_synonyms": [],
+        "common_examples": [
+            {
+                "text": "帮我 预订 明天早上  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 27,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 26,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 19,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 25,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午"
+                    },
+                    {
+                        "end": 18,
+                        "entity": "user_loc",
+                        "start": 12,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上八点到九点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上八点到九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上九点到十点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上九点到十点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天早上十点到十一点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 16,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天早上十点到十一点"
+                    },
+                    {
+                        "end": 24,
+                        "entity": "user_loc",
+                        "start": 18,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午两点到三点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午两点到三点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天下午三点到五点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天下午三点到五点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天晚上八点到九点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天晚上八点到九点"
+                    },
+                    {
+                        "end": 23,
+                        "entity": "user_loc",
+                        "start": 17,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 今天中午十二点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "今天中午十二点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天上午七点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天上午七点"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天晚上九点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天晚上九点"
+                    },
+                    {
+                        "end": 20,
+                        "entity": "user_loc",
+                        "start": 14,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 明天下午一点半  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "明天下午一点半"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天上午八点半  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天上午八点半"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天中午十二点  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天中午十二点"
+                    },
+                    {
+                        "end": 21,
+                        "entity": "user_loc",
+                        "start": 15,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 后天下午三点一刻  三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_time_or_period",
+                        "start": 6,
+                        "value": "后天下午三点一刻"
+                    },
+                    {
+                        "end": 22,
+                        "entity": "user_loc",
+                        "start": 16,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    }
+                ]
+            },
+            {
+                "text": "预订 会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 2,
+                        "entity": "item",
+                        "start": 0,
+                        "value": "预订"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 二楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 三楼小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 小会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 10,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 四楼1024会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 15,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 二楼多功能会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 14,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 一楼2A会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 13,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "帮我 预订 三楼大会议室",
+                "intent": "book_meeting",
+                "entities": [
+                    {
+                        "end": 5,
+                        "entity": "item",
+                        "start": 3,
+                        "value": "预订"
+                    },
+                    {
+                        "end": 12,
+                        "entity": "user_loc",
+                        "start": 6,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "明天早上",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天早上"
+                    }
+                ]
+            },
+            {
+                "text": "今天中午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天中午"
+                    }
+                ]
+            },
+            {
+                "text": "今天下午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天下午"
+                    }
+                ]
+            },
+            {
+                "text": "今天晚上",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天晚上"
+                    }
+                ]
+            },
+            {
+                "text": "明天上午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天上午"
+                    }
+                ]
+            },
+            {
+                "text": "明天晚上",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天晚上"
+                    }
+                ]
+            },
+            {
+                "text": "明天下午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天下午"
+                    }
+                ]
+            },
+            {
+                "text": "后天上午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "后天上午"
+                    }
+                ]
+            },
+            {
+                "text": "后天中午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "后天中午"
+                    }
+                ]
+            },
+            {
+                "text": "后天下午",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "后天下午"
+                    }
+                ]
+            },
+            {
+                "text": "明天早上八点到九点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天早上八点到九点"
+                    }
+                ]
+            },
+            {
+                "text": "明天早上九点到十点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天早上九点到十点"
+                    }
+                ]
+            },
+            {
+                "text": "明天早上十点到十一点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 10,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天早上十点到十一点"
+                    }
+                ]
+            },
+            {
+                "text": "今天下午两点到三点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天下午两点到三点"
+                    }
+                ]
+            },
+            {
+                "text": "今天下午三点到五点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天下午三点到五点"
+                    }
+                ]
+            },
+            {
+                "text": "今天晚上八点到九点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天晚上八点到九点"
+                    }
+                ]
+            },
+            {
+                "text": "今天中午十二点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "今天中午十二点"
+                    }
+                ]
+            },
+            {
+                "text": "明天上午七点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天上午七点"
+                    }
+                ]
+            },
+            {
+                "text": "明天晚上九点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天晚上九点"
+                    }
+                ]
+            },
+            {
+                "text": "明天下午一点半",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "明天下午一点半"
+                    }
+                ]
+            },
+            {
+                "text": "后天上午八点半",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "后天上午八点半"
+                    }
+                ]
+            },
+            {
+                "text": "后天中午十二点",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "后天中午十二点"
+                    }
+                ]
+            },
+            {
+                "text": "后天下午三点一刻",
+                "intent": "inform_user_time_or_peroid",
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "user_time_or_period",
+                        "start": 0,
+                        "value": "后天下午三点一刻"
+                    }
+                ]
+            },
+            {
+                "text": "二楼大会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "二楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "三楼小会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "三楼小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "小会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "小会议室"
+                    }
+                ]
+            },
+            {
+                "text": "大会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 4,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "四楼1024会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 9,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "四楼1024会议室"
+                    }
+                ]
+            },
+            {
+                "text": "二楼多功能会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 8,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "二楼多功能会议室"
+                    }
+                ]
+            },
+            {
+                "text": "一楼2A会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 7,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "一楼2A会议室"
+                    }
+                ]
+            },
+            {
+                "text": "三楼大会议室",
+                "intent": "inform_user_loc",
+                "entities": [
+                    {
+                        "end": 6,
+                        "entity": "user_loc",
+                        "start": 0,
+                        "value": "三楼大会议室"
+                    }
+                ]
+            },
+            {
+                "text": "hi 你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是 你是",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你好 您是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "在吗 你是谁",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 您是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey 您是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "嗨",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是 hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 hi",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey 您好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 您好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "在吗 嗨",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 您好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "哪个 你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 在吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "hey 您好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是哪个 哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好 你好吗",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 你是哪个",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "你是谁 你是谁",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您是哪个 你好",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好吗 喂",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "您好吗 hello",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂 hey",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "喂",
+                "intent": "greet",
+                "entities": []
+            },
+            {
+                "text": "byebye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "see you",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "走你",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "拜拜",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "bye",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "再见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "很高兴和你说话",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "拜",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "回见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "下次见",
+                "intent": "goodbye",
+                "entities": []
+            },
+            {
+                "text": "没问题",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "中",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "中中",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "办",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "办吧",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "恩",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "可以的",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "你看着办",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "办理吧",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "行",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "办理",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "嗯",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "好的",
+                "intent": "confirm",
+                "entities": []
+            },
+            {
+                "text": "行的",
+                "intent": "confirm",
+                "entities": []
+            }
+        ]
+    }
+}

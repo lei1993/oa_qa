@@ -1,0 +1,3 @@
+1. asyncio - Task exception was never retrieved future: <Task finished coro=<configure_app.<locals>.run_cmdline_io() done, defined at /home/dell/anaconda2/envs/rasa/lib/python3.6/site-packages/rasa/core/run.py:115> exception=RuntimeError('this event loop is already running.',)>
+
+fix: pip install sanic==19.9.0 google-auth==1.10.1 prompt-toolkit==2.0.10 questionary==1.4.0 SQLAlchemy==1.3.12 urllib3==1.25.7

@@ -1,0 +1,119 @@
+; This file shouldn't be fed directly to the Chatette generator
+; (it will be included inside the master file)
+; Contains the slots definitions
+; !!! Client: La Louvière !!!
+
+;=============== Slots definitions =====================
+;--------------- Production lines ---------------------
+@[production_line#long]
+  ~[GLO_SSP#long] = /
+  ~[LAL_HSM#long] = /
+  ~[LAL_SKP#long] = /
+  ~[EXT_SKP#long] = /
+  ~[LAL_PCK#long] = /
+  ~[EXT_PCK#long] = /
+  ~[LAL_CRM#long] = /
+  ~[EXT_CRM#long] = /
+  ~[LAL_PAC#long] = /
+  ~[LAL_SHP#long] = /
+  ~[STR_GLV#long] = /
+  ~[EXT_GLV#long] = /
+  ~[STR_PNT#long] = /
+  ~[EXT_PNT#long] = /
+  ~[STR_SLT#long] = /
+  ~[STR_PAC#long] = /
+  ~[STR_SHP#long] = /
+  ~[GLO_CLI#long] = /
+@[production_line#acronym]
+  ~[GLO_SSP#acronym] = /
+  ~[LAL_HSM#acronym] = /
+  ~[LAL_SKP#acronym] = /
+  ~[EXT_SKP#acronym] = /
+  ~[LAL_PCK#acronym] = /
+  ~[EXT_PCK#acronym] = /
+  ~[LAL_CRM#acronym] = /
+  ~[EXT_CRM#acronym] = /
+  ~[LAL_PAC#acronym] = /
+  ~[LAL_SHP#acronym] = /
+  ~[STR_GLV#acronym] = /
+  ~[EXT_GLV#acronym] = /
+  ~[STR_PNT#acronym] = /
+  ~[EXT_PNT#acronym] = /
+  ~[STR_SLT#acronym] = /
+  ~[STR_PAC#acronym] = /
+  ~[STR_SHP#acronym] = /
+  ~[GLO_CLI#acronym] = /
+
+@[line_number#long]
+  {[number ]/\#}1 = 1
+  {[number ]/\#}2 = 2
+  {[number ]/\#}3 = 3
+  {[number ]/\#}4 = 4
+  {[number ]/\#}5 = 5
+  {[number ]/\#}6 = 6
+  {[number ]/\#}7 = 7
+  {[number ]/\#}8 = 8
+  {[number ]/\#}9 = 9
+@[line_number#short]
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+
+;----------------- Time ----------------------
+@[filter_time]
+  ~[late]
+  ~[on time]
+
+;---------------- Completion ------------------
+@[filter_completion]
+  ~[fully planned] = 1.0
+  ~[planned at$1.0] = 1.0
+  ~[planned at$0.9] = 0.9
+  ~[planned at$0.8] = 0.8
+  ~[planned at$0.7] = 0.7
+  ~[planned at$0.6] = 0.6
+  ~[planned at$0.5] = 0.5
+  ~[planned at$0.4] = 0.4
+  ~[planned at$0.3] = 0.3
+  ~[planned at$0.2] = 0.2
+  ~[planned at$0.1] = 0.1
+  ~[planned at$0.0] = 0.0
+  ~[not planned] = 0.0
+
+;------------------ Utilization ------------------
+@[utilization#positive]
+  ~[fully used] = 1.0
+  ~[used at$100] = 1.0
+  ~[used at$90] = 0.9
+  ~[used at$80] = 0.8
+  ~[used at$70] = 0.7
+  ~[used at$60] = 0.6
+  ~[used at$50] = 0.5
+  ~[used at$40] = 0.4
+  ~[used at$30] = 0.3
+  ~[used at$20] = 0.2
+  ~[used at$10] = 0.1
+  ~[used at$0] = 0.0
+  ~[not used] = 0.0
+@[utilization#negative]
+  not ~[fully used] = not fully
+@[utilization#number only]
+  ~[fully used] = 1.0
+  ~[utilization$100] = 1.0
+  ~[utilization$90] = 0.9
+  ~[utilization$80] = 0.8
+  ~[utilization$70] = 0.7
+  ~[utilization$60] = 0.6
+  ~[utilization$50] = 0.5
+  ~[utilization$40] = 0.4
+  ~[utilization$30] = 0.3
+  ~[utilization$20] = 0.2
+  ~[utilization$10] = 0.1
+  ~[utilization$0] = 0.0
+  ~[not used] = 0.0
