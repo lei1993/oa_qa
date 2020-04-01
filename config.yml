@@ -31,4 +31,4 @@ policies:
   nlu_threshold: 0.5
   core_threshold: 0.3
 - name: MemoizationPolicy
-  max_history: 3
+  max_history: 2
