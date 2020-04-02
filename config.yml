@@ -1,34 +1,16 @@
 language: zh
 pipeline:
 - name: JiebaTokenizer
+- name: RegexFeaturizer
 - name: CRFEntityExtractor
-- name: rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor
-  part_of_speech:
-  - nr
-- name: rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer
-  ip: 172.16.1.134
-  port: 5555
-  port_out: 5556
-  show_server_config: true
-  timeout: 1000000
-  check_version: false
-- name: rasa_nlu_gao.classifiers.embedding_bert_intent_classifier.EmbeddingBertIntentClassifier
+- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: EmbeddingIntentClassifier
 policies:
-- name: policy.attention_policy.AttentionPolicy
-  epochs: 100
-  featurizer:
-  - name: MaxHistoryTrackerFeaturizer
-    max_history: 3
-    state_featurizer:
-    - name: LabelTokenizerSingleStateFeaturizer
-  tf_config:
-    inter_op_parallelism_threads: 0
-    intra_op_parallelism_threads: 0
-    gpu_options:
-      allow_growth: true
-- name: FallbackPolicy
-  fallback_action_name: action_default_fallback
-  nlu_threshold: 0.5
-  core_threshold: 0.3
 - name: MemoizationPolicy
-  max_history: 2
+- name: KerasPolicy
+- name: MappingPolicy
